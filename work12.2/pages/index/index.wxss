@@ -1,0 +1,42 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.usermotto {
+  margin-top: 20px;
+}
+
+.image--show {
+  margin-top: 20px;
+  width: 80vw;
+  height: 50vw;
+}
+
+.button--get {
+  margin-top: 20px;
+}
+
+.text--tips {
+  margin-top: 20px;
+  display: flex;
+}
+
+.text--tips__name {
+  width: 30vw;
+}
+
+.text--tips__value {
+  width: 50vw;
+}

@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <image class="image--show" src="{{filePath}}"></image>
+  <button class="button--get" bindtap="getResult" type="primary">获取结果</button>
+  <view wx:for="{{ resultList }}"  class="text--tips">
+    <view class="text--tips__name">{{ item.name }}</view>
+    <view class="text--tips__value">{{ item.value }}</view>
+  </view>
+</view>
